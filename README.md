@@ -53,5 +53,25 @@ In this Project, we have to build a classification model to predict whether a tr
 
 ## Project Assets Overview:
 - [data](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/data):
-
   This folder contains the dataset(s) used in the project. Includes raw.csv file along with a README file explaining the dataset's attributes. The 'preprocessed_data.csv' and 'resampled_os.csv' data files have been excluded from the repository by adding them to the .gitignore file due to their large file sizes.
+- [notebooks](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/notebooks):
+  This folder contains Jupyter notebooks consisting all the project work i.e. data exploration, preprocessing, feature engineering, model building, model training and evaluation for the best fitting model along with detailed explaination.
+- [model](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/model):
+  This folder contains the trained machine learning model serialization files (e.g., Pickle files) used in the project. 
+- [visuals](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/visuals):
+  This folder contains data visualizations and plots generated during exploratory data analysis or model evaluation. 
+- [requirements.txt](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/requirements.txt):
+  This file contains all the required packages for this project. (Use command for installation: pip install -r requirements.txt)
+- [app.py](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/app.py):
+  This app.py script essentially creates a web service(Flask apllication) that exposes a prediction endpoint, allowing user to send input data and receive predictions from the trained machine learning model. 
+
+## Project Set-Up:
+**Software And Tools Required for the Development of this Project:**
+1. [VSCodeIDE](https://code.visualstudio.com/): Can also be require for evaluation
+2. [GitCLI](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
+3. [Github Account](https://github.com/)
+4. [Heroku Account](https://www.heroku.com/)
+5. [Postman](https://www.postman.com/) : Can also be require for evaluation
+
+**Steps to Follow to Reproduce the Results:**
+

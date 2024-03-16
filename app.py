@@ -39,6 +39,30 @@ def predict_api():
     print(output[0])
     return jsonify(str(output[0]))
 
+# Define the column order expected by the model
+column_order = ['Time', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V18', 'V19', 'V20', 'V21', 'V22', 'V23', 'V24', 'V25', 'V26', 'V27', 'V28', 'Amount']
+
+@app.route('/predict',methods=['POST'])
+def predict():
+    # Extract 'Time' and 'Amount' from the request form
+    time = float(request.form['Time'])
+    amount = float(request.form['Amount'])
+    
+    # Scale 'Time' and 'Amount' using the loaded scalar object
+    scaled_time = scalar.transform([[time]])[0][0]
+    scaled_amount = scalar.transform([[amount]])[0][0]
+    
+    # Create the final input array with scaled 'Time' and 'Amount' and other features in the correct order
+    final_input = [scaled_time] + [float(request.form[col]) for col in column_order[1:29]] + [scaled_amount]  
+    
+    # Make predictions using the trained XGBoost model
+    output = xgb_model.predict(np.array(final_input).reshape(1, -1))[0]
+    
+    # Map prediction output to transaction label
+    transaction_label = "Non-Fraudulent Transaction" if output == 0 else "Fraudulent Transaction"
+    
+    return render_template("home.html", prediction_text="The Transaction is {}".format(transaction_label))
+
 
     
 if __name__ == '__main__':

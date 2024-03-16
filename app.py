@@ -59,7 +59,7 @@ def predict():
     output = xgb_model.predict(np.array(final_input).reshape(1, -1))[0]
     
     # Map prediction output to transaction label
-    transaction_label = "Non-Fraudulent Transaction" if output == 0 else "Fraudulent Transaction"
+    transaction_label = "Non-Fraudulent" if output == 0 else "Fraudulent"
     
     return render_template("home.html", prediction_text="The Transaction is {}".format(transaction_label))
 

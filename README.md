@@ -5,11 +5,13 @@
 
 ## About Credit Card Fraud Detection:
 - **What is credit card fraud detection?**
+
   Credit card fraud detection is the collective term for the policies, tools, methodologies, and practices that credit card companies and financial institutions take to combat identity fraud and stop fraudulent transactions.  
 
   In recent years, as the amount of data has exploded and the number of payment card transactions has skyrocketed, credit fraud detection has become largely digitized and automated. Most modern solutions leverage artificial intelligence (AI) and machine learning (ML) to manage data analysis, predictive modeling, decision-making, fraud alerts and remediation activity that occur when individual instances of credit card fraud are detected.  
 
 - **Anomaly detection**
+
   Anomaly detection is the process of analyzing massive amounts of data points from both internal and external sources to produce a framework of “normal” activity for each individual user and establish regular patterns in their activity.
 
   Data used to create the user profile includes:
@@ -31,7 +33,7 @@
   - Transactions that originate in an unusual location or foreign country
   - Transactions that occur at unusual times
 
- If the anomaly detection tool leverages ML, the models can also be self-learning, meaning that they will constantly gather and analyze new data to update the existing model and provide a more precise scope of acceptable activity for the user.
+  If the anomaly detection tool leverages ML, the models can also be self-learning, meaning that they will constantly gather and analyze new data to update the existing model and provide a more precise scope of acceptable activity for the user.
 
  
 ## Project Introduction: 
@@ -49,3 +51,7 @@ In this Project, we have to build a classification model to predict whether a tr
 - **Model Selection:** Choosing the most appropriate model that can be used for this project.
 - **Model Deployment:** Model deployment is the process of making a trained machine learning model available for use in a production environment.
 
+## Project Assets Overview:
+- [data](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/data):
+
+  This folder contains the dataset(s) used in the project. Includes raw.csv file along with a README file explaining the dataset's attributes. The 'preprocessed_data.csv' and 'resampled_os.csv' data files have been excluded from the repository by adding them to the .gitignore file due to their large file sizes.

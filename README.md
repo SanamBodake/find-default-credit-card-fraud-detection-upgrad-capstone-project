@@ -84,14 +84,37 @@ In this Project, we have to build a classification model to predict whether a tr
 5. Run app.py file using command from terminal-
    - python app.py
 6. Click on the link from the terminal as shown below-
+   
    ![image1](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/40111259-c764-4d71-add9-bf2dedd4bed2)
    
    You will get ML API Web page as shown below -
+   
    ![image2](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/5d55bf43-2e89-4f1f-aad7-5a639a398b4a)
 
    Fill the Values to Pridict the Class of Transaction-
+   
    ![image3](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/7d651f34-589d-4151-b0f2-9980789f51e1)
 
    Check the Prediction by clicking on the 'Predict' Button-
+   
    ![image4](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/98fcfeec-7e54-470d-a6ec-abdf522dca77)
+   
+7. Same You can check with Postman Application-
+   Open the Postamn -> Click on + icon -> Paste the link followed by predict_api as shown below-
+
+   ![postman1](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/d54933d7-73a4-4629-b890-74c6e2c8eb61)
+
+   Click Body -> raw -> JSON
+
+   ![postman2](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/a8e872b4-035e-40e3-a739-ffebbb43d93e)
+
+   Change to Post method and add a data in the json format-
+
+   ![postman3](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/27ae8694-e770-42a5-9d89-40784ce37b59)
+
+   Click on the Send Button, You will gwt result as shown below-
+
+   ![postman4](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/e8ba6df2-7488-446e-96a9-79749fb8fbb0)
+
+
 

@@ -83,5 +83,6 @@ In this Project, we have to build a classification model to predict whether a tr
 4. Run all the jupyter notebooks (exclude training models, use model pickle files instead)from the 'notebooks' folder if want to reproduce the results of this project work. 
 5. Run app.py file using command from terminal-
    - python app.py
-   
+   - ![image1](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/a9f261b3-6449-4a51-9ee3-a285e74ac54c)
+
 

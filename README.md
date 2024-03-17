@@ -57,11 +57,11 @@ Our dataset exhibits significant class imbalance, with the majority of transacti
 2. **Oversampling:** To further augment the minority class, we applied the SMOTETomek method with a sampling strategy of 0.75. This resulted in a more balanced dataset, enabling the models to better capture the underlying patterns in fraudulent transactions.
 3. **Machine Learning Models:** After preprocessing and balancing the dataset, we trained several machine learning models, including:
 
- - Logistic Regression
- - K-Nearest Neighbors (KNN)
- - Random Forest Classifier
- - AdaBoost Classifier
- - XGBoost Classifier
+   - Logistic Regression
+   - K-Nearest Neighbors (KNN)
+   - Random Forest Classifier
+   - AdaBoost Classifier
+   - XGBoost Classifier
 4. **Evaluation Metrics:** We evaluated the performance of each model using various metrics such as accuracy, precision, recall, and F1-score. Additionally, we employed techniques like cross-validation and hyperparameter tuning to optimize the models' performance.
 5. **Model Selection:** Among the various models and balancing methods experimented with, the XGBoost model stands out as the top performer when using oversampling techniques. Despite the inherent challenges posed by imbalanced datasets, the XGBoost algorithm demonstrates robustness and effectiveness in capturing the underlying patterns associated with fraudulent transactions. By generating synthetic instances of the minority class through oversampling methods like SMOTETomek, the XGBoost model achieves a more balanced representation of the data, enabling it to learn and generalize better to unseen instances. This superior performance underscores the importance of leveraging advanced ensemble techniques like XGBoost, particularly in the context of imbalanced datasets characteristic of credit card fraud detection.
 In summary, our approach involved preprocessing the imbalanced dataset using undersampling and oversampling techniques, followed by training and evaluating multiple machine learning models. By systematically exploring different methodologies and algorithms, we aimed to develop robust fraud detection XGBoost model capable of accurately identifying fraudulent transactions while minimizing false positives.

@@ -91,7 +91,7 @@ In this Project, we have to build a classification model to predict whether a tr
    
    ![image2](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/5d55bf43-2e89-4f1f-aad7-5a639a398b4a)
 
-   Fill the Values to Pridict the Class of Transaction-
+   Fill the Values to Predict the Class of Transaction-
    
    ![image3](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/7d651f34-589d-4151-b0f2-9980789f51e1)
 
@@ -112,7 +112,7 @@ In this Project, we have to build a classification model to predict whether a tr
 
    ![postman3](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/27ae8694-e770-42a5-9d89-40784ce37b59)
 
-   Click on the Send Button, You will gwt result as shown below-
+   Click on the Send Button, You will get result as shown below-
 
    ![postman4](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/e8ba6df2-7488-446e-96a9-79749fb8fbb0)
 

@@ -63,7 +63,7 @@ In this Project, we have to build a classification model to predict whether a tr
 - [requirements.txt](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/requirements.txt):
   This file contains all the required packages for this project. (Use command for installation: pip install -r requirements.txt)
 - [app.py](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/app.py):
-  This app.py script essentially creates a web service(Flask apllication) that exposes a prediction endpoint, allowing user to send input data and receive predictions from the trained machine learning model. 
+  This app.py script essentially creates a web service(Flask application) that exposes a prediction endpoint, allowing user to send input data and receive predictions from the trained machine learning model. 
 
 ## Project Set-Up:
 **Software And Tools Required for the Development of this Project:**
@@ -74,4 +74,14 @@ In this Project, we have to build a classification model to predict whether a tr
 5. [Postman](https://www.postman.com/) : Can also be require for evaluation
 
 **Steps to Follow to Reproduce the Results:**
+1. Open downloaded folder from the repository into VSCodeIDE.
+2. Create New environment using commands-
+   - conda install -p yourEnvname python==3.10
+   - conda activate yourEnvname
+3. Run following command to get all the required packages for this project-
+   - pip install -r requirements.txt
+4. Run all the jupyter notebooks (exclude training models, use model pickle files instead)from the 'notebooks' folder if want to reproduce the results of this project work. 
+5. Run app.py file using command from terminal-
+   - python app.py
+   
 

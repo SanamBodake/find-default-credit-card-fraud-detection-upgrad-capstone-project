@@ -80,7 +80,9 @@ Exploring the integration of advanced deep learning models like Convolutional Ne
 - [model](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/model):
   This folder contains the trained machine learning model serialization files (e.g., Pickle files) used in the project. 
 - [visuals](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/visuals):
-  This folder contains data visualizations and plots generated during exploratory data analysis or model evaluation. 
+  This folder contains data visualizations and plots generated during exploratory data analysis or model evaluation.
+- [Report](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/Report.pdf):
+  This is a documentation pdf file consisting the project report.
 - [requirements.txt](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/requirements.txt):
   This file contains all the required packages for this project. (Use command for installation: pip install -r requirements.txt)
 - [app.py](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/app.py):

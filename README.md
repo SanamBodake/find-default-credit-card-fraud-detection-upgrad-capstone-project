@@ -123,7 +123,7 @@ Exploring the integration of advanced deep learning models like Convolutional Ne
    ![image4](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/98fcfeec-7e54-470d-a6ec-abdf522dca77)
    
 7. Same You can check with Postman Application-
-   Open the Postamn -> Click on + icon -> Paste the link followed by predict_api as shown below-
+   Open the Postman -> Click on + icon -> Paste the link followed by predict_api as shown below-
 
    ![postman1](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/d54933d7-73a4-4629-b890-74c6e2c8eb61)
 
@@ -139,5 +139,16 @@ Exploring the integration of advanced deep learning models like Convolutional Ne
 
    ![postman4](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/e8ba6df2-7488-446e-96a9-79749fb8fbb0)
 
+8. Using Deployed model on Heroku Cloud Services-
+   Check the details using following screenshots-
+   
+   ![deployed_model](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/782d630d-9e9d-4d74-bd3a-d008bc345c6b)
 
+   ![model_deployed](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/a9f670c4-9b76-4c09-9a8e-b8b10cbda8b5)
+
+   ![Heroku2](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/8b5fa01d-3ab5-47e3-84bd-8366418d80e2)
+
+   ![Heroku3](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/76bb3d43-9f5b-46b4-b508-dd33057530ec)
+
+   
 
